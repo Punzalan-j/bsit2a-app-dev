@@ -1,7 +1,7 @@
 <template>
   <v-app>
     
-    <v-navigation-drawer v-model="drawer" :rail="rail" permanent
+    <v-navigation-drawer v-model="drawer" permanent
       >
         <template v-slot:prepend>
           <v-list-item
@@ -38,9 +38,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+
 const drawer = ref(true);
- const rail = ref(true)
+ 
 </script>
 
 <style>
