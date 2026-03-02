@@ -12,6 +12,7 @@
           </v-card-text>
         </v-card>
       </v-col>
+
             <v-col cols="12" md="3">
         <v-card height="120" color="#EEEEEE">
           <v-card-text>
@@ -22,6 +23,7 @@
           </v-card-text>
         </v-card>
       </v-col>
+
             <v-col cols="12" md="3">
         <v-card height="120" color="#EEEEEE">
           <v-card-text>
@@ -32,6 +34,7 @@
           </v-card-text>
         </v-card>
       </v-col>
+
             <v-col cols="12" md="3">
         <v-card height="120" color="#EEEEEE">
           <v-card-text>
@@ -42,29 +45,34 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-row>
+    </v-row>
+
+    <v-row>
             <v-col cols="12" md="6">
         <v-card height="600" color="#EEEEEE">
         </v-card>
       </v-col>
+
            <v-col cols="12" md="6">
             <v-row>
         <v-col cols="12">
         <v-card height="180" color="#EEEEEE">
         </v-card>
       </v-col>
+
       <v-col cols="12">
         <v-card height="180" color="#EEEEEE">
         </v-card>
       </v-col>
+
       <v-col cols="12">
         <v-card height="180" color="#EEEEEE">
         </v-card>
       </v-col>
-    </v-row>
+    </v-row> 
    </v-col>
+   
    </v-row>
-    </v-row>
 
   </div>
 </template>
