@@ -15,11 +15,10 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-home-city" title="Home" value="home"></v-list-item>
+          <v-list-item prepend-icon="mdi-home-city" title="Home" to="home"></v-list-item>
           <v-list-item prepend-icon="mdi-account" title="My Account" value="account"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Users" value="users"></v-list-item>
-          <v-list-item prepend-icon="mdi-prelim" title="Prelim" to="prelim"></v-list-item>
-          <v-list-item prepend-icon="mdi-remedial" title="Remedial" to="remedial"></v-list-item>
+          <v-list-item prepend-icon="mdi-account" title="Prelim" to="prelim"></v-list-item>
         </v-list>
       </v-navigation-drawer>
       <v-app-bar :elevation="2">
