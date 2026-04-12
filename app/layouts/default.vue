@@ -14,16 +14,12 @@
 
         <v-divider></v-divider>
 
-        <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-home-city" title="Home" to="home"></v-list-item>
-          <v-list-item prepend-icon="mdi-account" title="My Account" value="account"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline" title="Users" value="users"></v-list-item>
-<<<<<<< HEAD
-          <v-list-item prepend-icon="mdi-account" title="Prelim" to="prelim"></v-list-item>
-=======
-          <v-list-item prepend-icon="mdi-prelim" title="Prelim" to="prelim"></v-list-item>
->>>>>>> 810426b56e629700dc772436cd78d5519262f037
-        </v-list>
+<v-list density="compact" nav >
+<v-list-item prepend-icon="mdi-account-group-outline" title="Dashboard" value="Dashboard" to="/dashboard" ></v-list-item >
+<v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="Prelim" to="/prelim" ></v-list-item >
+<v-list-item prepend-icon="mdi-account-group-outline" title="Calculate" value="Calculate" to="/calculate"></v-list-item>
+</v-list>
+
       </v-navigation-drawer>
       <v-app-bar :elevation="2">
   <template v-slot:prepend>
