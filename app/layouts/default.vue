@@ -18,12 +18,19 @@
 <v-list-item prepend-icon="mdi-account-group-outline" title="Dashboard" value="Dashboard" to="/dashboard" ></v-list-item >
 <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="Prelim" to="/prelim" ></v-list-item >
 <v-list-item prepend-icon="mdi-account-group-outline" title="Calculate" value="Calculate" to="/calculate"></v-list-item>
+<v-list-item prepend-icon="mdi-account-group-outline" title="Midterm Exam" value="Midterm Exam" to="/midtermexam"></v-list-item>
 </v-list>
 
       </v-navigation-drawer>
       <v-app-bar :elevation="2">
   <template v-slot:prepend>
     <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+    <v-btn>
+      @click="drawer = !drawer"
+          icon="mdi-chevron_left"
+          variant="text"
+          @click.stop="rail = !rail">
+         </v-btn>
   </template>
   
 
