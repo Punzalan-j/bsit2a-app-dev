@@ -15,7 +15,7 @@
         <v-divider></v-divider>
 
 <v-list density="compact" nav >
-<v-list-item prepend-icon="mdi-account-group-outline" title="Dashboard" value="Dashboard" to="/dashboard" ></v-list-item >
+<v-list-item prepend-icon="mdi-account-group-outline" title="Dashboard" value="Dashboard" to="dashboard" ></v-list-item >
 <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="Prelim" to="/prelim" ></v-list-item >
 <v-list-item prepend-icon="mdi-account-group-outline" title="Calculate" value="Calculate" to="/calculate"></v-list-item>
 <v-list-item prepend-icon="mdi-account-group-outline" title="Midterm Exam" value="Midterm Exam" to="/midtermexam"></v-list-item>
